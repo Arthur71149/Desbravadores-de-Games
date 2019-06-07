@@ -1,5 +1,4 @@
-body{
-  background-color: grey;
+main{
   margin-left: 20%;
   margin-right: 20%;
 }
@@ -30,15 +29,12 @@ header{
   justify-content: space-around;
   align-content: flex-end;
   position: relative;
-  height: 2.75rem;
+  height: 3.0 rem;
 }
 .footer{
   padding: 2.5rem 0;
-  color: #999;
   text-align: center;
-  background-color: #f9f9f9;
   border-top: .05rem solid #e5e5e5;
-  color: black;
 }
 img{
   display: block;
@@ -49,4 +45,30 @@ img{
 }
 h2{
   font-family: 'Ranga', cursive;
+}
+header h1{
+  font-family: 'Righteous', cursive;
+}
+header a{
+  font-family: 'Rajdhani', sans-serif;
+}
+footer{
+ background-image: url(https://i.pinimg.com/originals/df/97/4b/df974b48a9e04b8867c90b8b7011db57.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#seta{
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 35px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
 }
