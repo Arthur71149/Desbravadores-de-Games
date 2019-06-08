@@ -8,6 +8,10 @@ header{
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 2%;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 3;
 }
 .NomePrincipal{
   color: white;
@@ -71,4 +75,7 @@ footer{
   position: fixed;
   right: 15px;
   bottom: 15px;
+}
+h1{
+  text-align: center;
 }

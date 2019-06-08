@@ -7,7 +7,7 @@ main{
 }
 
 body {
-  background-color: darkblue;
+  background-color: black;
 }
 
 header{
@@ -62,6 +62,7 @@ header{
 }
 
 .post h2 {
+  opacity: 1;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
   margin-right: 2.5%;
@@ -72,10 +73,39 @@ header{
   padding-right: 1%;
   padding-left: 0.5%;
   padding-top: 0.5%;
-  font-size: 250%;
+  font-size: 225%;
   font-family: 'Rubik', sans-serif;
 }
 
 .post img {
   border: solid black 5px;
+}
+footer{
+ background-image: url(https://i.pinimg.com/originals/df/97/4b/df974b48a9e04b8867c90b8b7011db57.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#seta{
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 35px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+header h1{
+  font-family: 'Righteous', cursive;
+}
+header a{
+  font-family: 'Rajdhani', sans-serif;
+}
+.post h2:hover {
+  opacity: 0;
 }
