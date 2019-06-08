@@ -1,0 +1,111 @@
+main{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+body {
+  background-color: black;
+}
+
+header{
+  background-color: black;
+  height: 6rem;
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 3;
+}
+.NomePrincipal{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.LinksNavegacao{
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  text-decoration: none;
+  color: white;
+}
+.MenuHeader{
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  position: relative;
+  height: 2.75rem;
+}
+.footer{
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+  color: black;
+}
+
+.NavegacaoReviews img {
+  height: 50%;
+  width: 50%;
+  margin: 25px;
+}
+
+.post {
+  position: relative;
+}
+
+.post h2 {
+  opacity: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-right: 2.5%;
+  margin-left: 2.3%;
+  margin-bottom: 2.5%;
+  margin-top: 2.3%;
+  color: white;
+  padding-right: 1%;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  font-size: 225%;
+  font-family: 'Rubik', sans-serif;
+}
+
+.post img {
+  border: solid black 5px;
+}
+footer{
+ background-image: url(https://i.pinimg.com/originals/df/97/4b/df974b48a9e04b8867c90b8b7011db57.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+#seta{
+  background-color: white;
+  border-radius: 20%;
+  border: 2px solid silver;
+  font-size: 35px;
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+header h1{
+  font-family: 'Righteous', cursive;
+}
+header a{
+  font-family: 'Rajdhani', sans-serif;
+}
+.post h2:hover {
+  opacity: 0;
+}
