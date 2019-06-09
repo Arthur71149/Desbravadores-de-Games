@@ -1,6 +1,10 @@
 main{
   margin-left: 20%;
   margin-right: 20%;
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 header{
   background-color: black;
@@ -47,7 +51,7 @@ img{
   margin-top: 2%;
   margin-bottom: 2%;
 }
-h2{
+h2, h3{
   font-family: 'Ranga', cursive;
 }
 header h1{
@@ -62,7 +66,7 @@ footer{
  background-size: cover;
 }
 #seta{
-  background-color: white;
+  background-color: black;
   border-radius: 20%;
   border: 2px solid silver;
   font-size: 35px;
@@ -75,7 +79,13 @@ footer{
   position: fixed;
   right: 15px;
   bottom: 15px;
+  color: white;
 }
 h1{
   text-align: center;
+}
+header a:hover{
+  color: white;
+  font-weight: bolder;
+  font-size: 100%;
 }

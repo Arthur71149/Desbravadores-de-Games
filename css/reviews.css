@@ -4,6 +4,7 @@ main{
   background-color: rgba(255, 255, 255, 0.5);
   padding-top: 1%;
   padding-bottom: 2%;
+  text-align: justify;
 }
 
 body {
@@ -46,15 +47,13 @@ header{
   padding: 2.5rem 0;
   color: #999;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
   color: black;
 }
 
 .NavegacaoReviews img {
   height: 50%;
   width: 50%;
-  margin: 25px;
+  margin: 3%;
 }
 
 .post {
@@ -79,6 +78,8 @@ header{
 
 .post img {
   border: solid black 5px;
+  border-radius: 2%;
+  opacity: 1;
 }
 footer{
  background-image: url(https://i.pinimg.com/originals/df/97/4b/df974b48a9e04b8867c90b8b7011db57.jpg);
@@ -86,9 +87,9 @@ footer{
  background-size: cover;
 }
 #seta{
-  background-color: white;
+  background-color: black;
   border-radius: 20%;
-  border: 2px solid silver;
+  border: 2px solid #696969;
   font-size: 35px;
   width: 1em;
   height: 1em;
@@ -99,6 +100,7 @@ footer{
   position: fixed;
   right: 15px;
   bottom: 15px;
+  color: white;
 }
 header h1{
   font-family: 'Righteous', cursive;
@@ -106,6 +108,17 @@ header h1{
 header a{
   font-family: 'Rajdhani', sans-serif;
 }
-.post h2:hover {
+header a:hover{
+  color: white;
+  font-weight: bolder;
+  font-size: 100%;
+}
+.post h2:active {
   opacity: 0;
+}
+.post img:active{
+  opacity: 0;
+}
+h1{
+  padding-left: 2%;
 }
