@@ -6,9 +6,11 @@ main{
   padding-bottom: 2%;
   text-align: justify;
 }
+
 body {
   background-color: black;
 }
+
 header{
   background-color: black;
   height: 6rem;
@@ -47,6 +49,12 @@ header{
   text-align: center;
   color: black;
 }
+
+
+
+
+
+
 footer{
 
 }
@@ -77,6 +85,7 @@ header a:hover{
   font-weight: bolder;
   font-size: 100%;
 }
+
 h1{
   padding-left: 2%;
 }
@@ -93,7 +102,8 @@ justify-content: space-around;
   opacity: 1;
   width: 30em;
   height: 20em;
-  margin-bottom: 1em;
+margin-bottom: 1em;
+
 }
 main h1{
   text-align: center;
@@ -106,6 +116,7 @@ main h1{
   opacity: 1;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
+
   color: white;
   padding-right: 1%;
   padding-left: 0.5%;
