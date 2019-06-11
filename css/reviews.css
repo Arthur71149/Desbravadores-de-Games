@@ -1,6 +1,6 @@
 main{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: rgba(255, 255, 255, 0.5);
   padding-top: 1%;
   padding-bottom: 2%;
@@ -50,41 +50,13 @@ header{
   color: black;
 }
 
-.NavegacaoReviews img {
-  height: 50%;
-  width: 50%;
-  margin: 3%;
-}
 
-.post {
-  position: relative;
-}
 
-.post h2 {
-  opacity: 1;
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin-right: 2.5%;
-  margin-left: 2.3%;
-  margin-bottom: 2.5%;
-  margin-top: 2.3%;
-  color: white;
-  padding-right: 1%;
-  padding-left: 0.5%;
-  padding-top: 0.5%;
-  font-size: 225%;
-  font-family: 'Rubik', sans-serif;
-}
 
-.post img {
-  border: solid black 5px;
-  border-radius: 2%;
-  opacity: 1;
-}
+
+
 footer{
- background-image: url(https://i.pinimg.com/originals/df/97/4b/df974b48a9e04b8867c90b8b7011db57.jpg);
- background-repeat: no-repeat;
- background-size: cover;
+
 }
 #seta{
   background-color: black;
@@ -113,12 +85,42 @@ header a:hover{
   font-weight: bolder;
   font-size: 100%;
 }
-.post h2:active {
-  opacity: 0;
-}
-.post img:active{
-  opacity: 0;
-}
+
 h1{
   padding-left: 2%;
+}
+.reviews{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.reviews img{
+  border: solid black 5px;
+  border-radius: 2%;
+  opacity: 1;
+  width: 30em;
+  height: 20em;
+margin-bottom: 1em;
+
+}
+main h1{
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  font-size: 250%;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.post h2 {
+  opacity: 1;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  color: white;
+  padding-right: 1%;
+  padding-left: 0.5%;
+  padding-top: 0.5%;
+  font-size: 225%;
+  font-family: 'Rubik', sans-serif;
 }
