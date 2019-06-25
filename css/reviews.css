@@ -1,7 +1,7 @@
 main{
   margin-left: 10%;
   margin-right: 10%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   padding-top: 1%;
   padding-bottom: 2%;
   text-align: justify;
@@ -9,6 +9,7 @@ main{
 
 body {
   background-color: black;
+  background-image: url(https://i.pinimg.com/originals/0f/ca/e9/0fcae95862cbc16cfe0bc46bc6b6e34c.png);
 }
 
 header{
@@ -28,6 +29,7 @@ header{
   border-bottom: 1px solid #e5e5e5;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  
 }
 .LinksNavegacao{
   padding-top: .75rem;
@@ -48,15 +50,6 @@ header{
   color: #999;
   text-align: center;
   color: black;
-}
-
-
-
-
-
-
-footer{
-
 }
 #seta{
   background-color: black;
@@ -84,6 +77,7 @@ header a:hover{
   color: white;
   font-weight: bolder;
   font-size: 100%;
+  text-decoration: none;
 }
 
 h1{
@@ -108,9 +102,8 @@ margin-bottom: 1em;
 main h1{
   text-align: center;
   font-family: 'Righteous', cursive;
-  font-size: 250%;
-  color: white;
-  border-bottom: 1px solid white;
+  font-size: 400%;
+  color: black;
 }
 .post h2 {
   opacity: 1;
@@ -123,4 +116,10 @@ main h1{
   padding-top: 0.5%;
   font-size: 225%;
   font-family: 'Rubik', sans-serif;
+}
+
+footer {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: rgba(255, 255, 255, 0.7);
 }

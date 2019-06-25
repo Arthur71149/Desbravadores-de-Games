@@ -2,16 +2,17 @@ main{
   margin-left: 20%;
   margin-right: 20%;
   text-align: justify;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   padding-top: 1%;
   padding-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 header{
   background-color: black;
   height: 6rem;
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 2%;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
@@ -39,11 +40,7 @@ header{
   position: relative;
   height: 3.0 rem;
 }
-.footer{
-  padding: 2.5rem 0;
-  text-align: center;
-  border-top: .05rem solid #e5e5e5;
-}
+
 img{
   display: block;
   margin-left: auto;
@@ -59,11 +56,7 @@ header h1{
 }
 header a{
   font-family: 'Rajdhani', sans-serif;
-}
-footer{
- background-image: url(https://i.pinimg.com/originals/df/97/4b/df974b48a9e04b8867c90b8b7011db57.jpg);
- background-repeat: no-repeat;
- background-size: cover;
+  text-decoration: none;
 }
 #seta{
   background-color: black;
@@ -88,4 +81,5 @@ header a:hover{
   color: white;
   font-weight: bolder;
   font-size: 100%;
+  text-decoration: none;
 }
